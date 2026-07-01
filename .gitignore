@@ -2,7 +2,14 @@
 .build/
 build/
 dist/
+!dist/
+dist/*
+!dist/NoSleep.dmg
 tmp/
+marketing/
+assets/app-icon/NoSleep.iconset/
+assets/app-icon/nosleep-icon-*.png
+scripts/package-share.sh
 *.xcuserdata
 *.swp
 *.log
